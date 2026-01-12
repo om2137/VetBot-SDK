@@ -11,7 +11,7 @@
   /* ------------------------------
      SDK CONSTANTS
   ------------------------------ */
-  var CHAT_UI_URL = "http://localhost:5173/";
+  var CHAT_UI_URL = "https://vet-bot-frontend.vercel.app/";
   var IFRAME_ID = "vet-chatbot-iframe";
   var STORAGE_KEY = "vet_chat_session_id";
 
