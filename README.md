@@ -129,7 +129,10 @@ VetBot can be embedded into any website using a single script tag.
 
 ```html
 <script src="https://vet-bot-sdk.vercel.app/chatbot.js"></script>
+```
+(following is optional)
 
+```
 <script>
   window.VetChatbotConfig = {
     userId: "user_123",
@@ -139,5 +142,48 @@ VetBot can be embedded into any website using a single script tag.
   };
 </script>
 ```
+
+## 🛠 Tech Stack
+
+### Frontend (Chat UI)
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express
+- MongoDB (Atlas)
+
+### AI
+- Google Gemini API
+
+### Hosting
+- Vercel (Chat UI & SDK)
+- Render (Backend API)
+
+---
+
+## 📌 Assumptions
+
+- Appointment slots are **predefined and static**
+- Only **one active chat session per user/browser** is supported
+- Appointment booking follows a **linear, guided flow**
+- Chatbot provides **general veterinary guidance only**
+- No medical diagnosis or prescriptions are given
+- Users are identified via **session ID**, not authentication
+
+---
+
+## 🚀 Future Improvements
+
+- Dynamic slot management with real-time availability
+- Support for multiple concurrent chats and cross-device sessions
+- User authentication and persistent profiles
+- Appointment rescheduling, cancellation, and reminders
+- Admin dashboards for vets and slot management
+- Analytics, monitoring, and reporting
+- Human agent handoff for complex cases
+
 
 
